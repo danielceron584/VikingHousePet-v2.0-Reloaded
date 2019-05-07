@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: #f2f2f2;
+}
+/*SETTING BACKGROUND HEADER AND SIZE*/
+header{
+    width: 100%;
+    height: 610px;
+    background: url("https://i.imgur.com/yHdAXsr.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /*background-repeat: repeat;*/
+    
+}
+
+.someText{
+   /* padding: 300px;*/
+    color: #fff;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.linksHead{
+    text-decoration:none;
+    font-size: 20px;    
+    padding: 7px;
+    width: 170px;
+    border:1px solid #EC1717;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    margin-left: 10%; 
+}
+.linksHead:hover{
+    background-color: rgba(181, 78, 78, 0.5);
+    color: #fff;
+}
+.linksHead{
+    margin-top: 5%;
+}
+.positionsLinks{
+    display: flex;
+}
+/*INCLUDING A NEW FONT*/
+@font-face{
+    font-family: 'Bloomer';
+    src: url("Bloomer.otf");
+}
+@font-face{
+    font-family: 'Ashemark';
+    src: url('Ashemark regular.otf');
+}
+.linksHead, .linkArticle, h1, h2 {
+    font-family: 'Bloomer';
+}
+/*NEW COLOR FOR TITLE AND SUBTITLE*/
+
+h1{
+    color: rgba(168, 4, 4, 0.96);
+    font-size: 450%;
+}
+h2{
+    color: #C3BDBA;
+}
+/*FIXING MARGIN FOR TITLE AND SUBTITLE*/
+
+h1{
+    margin-top: 22%;
+}
+/*FIXING SIZE FOR HOME IMAGE*/
+.mainImage{
+    margin-top: 6%;
+    width: 40%;
+    height: 40%;
+    border: 0px solid black;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    
+
+}
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+article{
+    margin-left: 0%;
+    margin-top: 10%;
+    text-align: center;
+}
+/*FIXING ARTICLE BUTTON */
+.linkArticle{
+    text-decoration:none;
+    font-size: 20px;    
+    padding: 7px;
+    width: 170px;
+    border:1px solid #EC1717;
+    
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+    color: #fff;
+  
+}
+.linkArticle:hover{
+    background-color: rgba(181, 78, 78, 0.5);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Modak');
+
+p{
+    font-size: 200%;
+    font-family: 'Ashemark';
+}
+main{
+    height: 700px;
+    padding-top: 1px; 
+    /*background-color: #C3BDBA;*/
+    background-color: black;
+}
+.welcomeDiv{
+    background: url('http://api.thumbr.it/whitenoise-361x370.png?background=29498aff&noise=626262&density=35&opacity=52');
+    
+    border: 0px solid black;
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+}
+.footerContent{
+    font-family: 'Modak', cursive;
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(255, 10, 1);
+    opacity: 0.6;
+    border: 5px solid rgb(70, 2, 7);
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+
+}
+body{
+    background-color: black;
+}
