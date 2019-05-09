@@ -148,7 +148,7 @@ a{
 }
 footer{
     background-color: rgb(255, 10, 1);
-    opacity: 0.6;
+    
     border: 5px solid rgb(70, 2, 7);
     border-radius: 10px 10px 10px 10px;
 -moz-border-radius: 10px 10px 10px 10px;
@@ -221,11 +221,25 @@ body{
   }
   aside{
       flex:1;
-      /*overflow-y: auto*/
+      overflow-y: auto
   }
   .movingContent{
       margin-left: 25%
   }
  article{
-      margin-top: 0%; 
+      margin-top: 0%;
   }
+  .movingContent2{
+    margin-left: 13%
+}
+.movingContent3{
+    margin-top: 5%;
+}
+.cardBorder{
+    border: 3px #fefefe solid;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+

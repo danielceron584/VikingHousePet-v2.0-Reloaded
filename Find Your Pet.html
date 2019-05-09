@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Viking House Pets</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="shortcut icon" href="https://i.imgur.com/2fLixth.png" type="image/x-icon">
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -25,57 +28,238 @@
     </div>
     </header>
 <main>
-<article>
-    <div class="welcomeDiv wrapper flex-container">
+<article class="movingContent3 paddingContent">
+    <div class="welcomeDiv wrapper flex-container movingContent2">
        
         <!--IMAGE CONTENT-->
         <div class="flex-container column wrap">
         
-        <div> 
-            <h2>Name of pet</h2>
-            <a href="#"><img src="https://i.imgur.com/rqrRMej.jpg" alt="" class="imageFindyourpets"></a>
-            <p>Description</p>
+        <div > 
+            <h2>Rocco</h2>
+            <a href="#" id="roccoAbrir"><img src="https://i.imgur.com/IqyYVxv.jpg" alt="" class="imageFindyourpets"></a>
+            <!--<p> You can adopt it right now doing click on the image.</p>
+ --> <p>Click on the image</p>                <!--MODAL-->
+                <div id="miModalRocco" class="modal">
+                        <div class="flex" id="flexRocco">
+                            <div class="contenidoModal">
+                                <div class="modal-header flex">
+                                    <h2> Rocco </h2>
+                                    <span class="close" id="cerrarRocco">&times;</span>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="https://i.imgur.com/IqyYVxv.jpg" alt="" class="imageFindyourpets">
+                                    <p> The younger puppy on our foster house, He's fully equipped with happiness. <br><br>
+                                        Age: 2 months <br>
+                                        Gender: Male <br> <br>
+
+                                     If you're interested in continue with adoption process, please press continue button to enter some information.
+                                    </p>
+                                    <br>
+
+                                     <a href="#" id="botonRoccocontinuar"><h3>Continue</h3></a>
+                                    
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+
         </div>
         <div> 
-            <h2>Name of pet</h2>
-            <a href="#"><img src="https://i.imgur.com/rqrRMej.jpg" alt="" class="imageFindyourpets"></a>
-            <p>Description</p>
+            <h2>Toby</h2>
+            <a href="#" id="tobyAbrir"><img src="https://i.imgur.com/q5rH2QP.jpg" alt="" class="imageFindyourpets"></a>
+           <!-- <p>You can adopt it right now doing click on the image. </p> --> <p>Click on the image</p>
+            <div id="miModalToby" class="modal">
+                    <div class="flex" id="flexToby">
+                        <div class="contenidoModal">
+                            <div class="modal-header flex">
+                                <h2> Toby </h2>
+                                <span class="close" id="cerrarToby">&times;</span>
+                            </div>
+                            <div class="modal-body">
+                                <img src="https://i.imgur.com/q5rH2QP.jpg" alt="" class="imageFindyourpets">
+                                <p> He is a little kitten and is very healthful. He really wants to get so much fun with you. <br><br>
+                                    Age: 3 months <br> 
+                                    Gender: Male  <br> <br>
+
+                                 If you're interested in continue with adoption process, please press continue button to enter some information.
+                                </p>
+                                <br>
+
+                                 <a href="#" id="botonTobycontinuar"><h3>Continue</h3></a>
+                                
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
         </div>
         
     </div>
         <div class="flex-container row wrap">
              <div> 
-                    <h2>Name of pet</h2>
-                    <a href="#"><img src="https://i.imgur.com/rqrRMej.jpg" alt="" class="imageFindyourpets"></a>
-                    <p>Description</p>
+                    <h2>Duke</h2>
+                    <a href="#" id="abrir"><img src="https://i.imgur.com/RVhMhb1.jpg" alt="" class="imageFindyourpets"></a>
+                   <!-- <p>You can adopt it right now doing click on the image. </p> --> <p>Click on the image</p>
+                    <!--MODAL-->
+                    <div id="miModal" class="modal">
+                            <div class="flex" id="flex">
+                                <div class="contenidoModal">
+                                    <div class="modal-header flex">
+                                        <h2> Duke </h2>
+                                        <span class="close" id="close">&times;</span>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://i.imgur.com/RVhMhb1.jpg" alt="" class="imageFindyourpets">
+                                        <p>Duke is getting older, but, He's the most loyal dog you can find. <br><br>
+
+                        
+                                            Age: 4 years
+                                         <br>
+                                         Gender: Male
+                                         <br>
+                                         <br>
+
+                                         If you're interested in continue with adoption process, please press continue button to enter some information.
+                                        </p>
+                                        <br>
+
+                                         <a href="#" id="botonContinuar"><h3>Continue</h3></a>
+                                        
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
              </div>
              <div> 
-                    <h2>Name of pet</h2>
-                    <a href="#"><img src="https://i.imgur.com/rqrRMej.jpg" alt="" class="imageFindyourpets"></a>
-                    <p>Description</p>
+                    <h2>Cupcake</h2>
+                    <a href="#" id="abrirCupcake"><img src="https://i.imgur.com/PMPpIEs.jpg" alt="" class="imageFindyourpets"></a>
+                    <!--<p> You can adopt it right now doing click on the image. </p> --> <p>Click on the image</p>
+                      
+                        <!--MODAL-->
+                        <div id="miModalCupcake" class="modal">
+                                <div class="flex" id="flexCupcake">
+                                    <div class="contenidoModal">
+                                        <div class="modal-header flex">
+                                            <h2> Cupcake </h2>
+                                            <span class="close" id="cerrarCupcake">&times;</span>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="https://i.imgur.com/PMPpIEs.jpg" alt="" class="imageFindyourpets">
+                                            <p> Her name is Cupcake because is so sweet.
+
+                                                    Cupcake will be a big friend for you, even more than that. 
+                                                    <br>
+                                                    <br>
+                                                    Age: 1 year
+                                                    <br>
+                                                    Gender: Female
+                                                    <br>
+                                                    <br>
+    
+                                             If you're interested in continue with adoption process, please press continue button to enter some information.
+                                            </p>
+                                            <br>
+    
+                                             <a href="#" id="botonCupcontinuar"><h3>Continue</h3></a>
+                                            
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </p>
              </div>
              <div> 
-                    <h2>Name of pet</h2>
-                    <a href="#"><img src="https://i.imgur.com/rqrRMej.jpg" alt="" class="imageFindyourpets"></a>
-                    <p>Description</p>
+                    <h2>Luna</h2>
+                    <a href="#" id="lunaAbrir"><img src="https://i.imgur.com/0LA4u2M.jpg" alt="" class="imageFindyourpets"></a>
+                   <!-- <p>You can adopt it right now doing click on the image.</p>
+ --> <p>Click on the image</p>
+                        
+
+                        <!--MODAL-->
+                             <div id="miModalLuna" class="modal">
+                                <div class="flex" id="flexLuna">
+                                    <div class="contenidoModal">
+                                        <div class="modal-header flex">
+                                            <h2> Luna </h2>
+                                            <span class="close" id="cerrarLuna">&times;</span>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="https://i.imgur.com/0LA4u2M.jpg" alt="" class="imageFindyourpets">
+                                            <p> This young dog is at its best years, Luna will learn everything you want to teach it. Also, She loves to play with children.
+                                                    <br>
+                                                    <br>
+                                                    Age: 2 year
+                                                    <br>
+                                                    Gender: Female
+                                                    <br>
+                                                    <br>
+    
+                                             If you're interested in continue with adoption process, please press continue button to enter some information.
+                                            </p>
+                                            <br>
+    
+                                             <a href="#" id="botonLunacontinuar"><h3>Continue</h3></a>
+                                            
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                    
              </div>
              <div> 
-                    <h2>Name of pet</h2>
-                    <a href="#"><img src="https://i.imgur.com/rqrRMej.jpg" alt="" class="imageFindyourpets"></a>
-                    <p>Description</p>
+                    <h2>Cleopatra</h2>
+                    <a href="#" id="cleoAbrir"><img src="https://i.imgur.com/J8ZRdHg.jpg" alt="" class="imageFindyourpets"></a>
+                   <!-- <p>You can adopt it right now doing click on the image. </p> --> <p>Click on the image</p>
+                            
+
+                                <!--MODAL-->
+                             <div id="miModalCleo" class="modal">
+                                    <div class="flex" id="flexCleo">
+                                        <div class="contenidoModal">
+                                            <div class="modal-header flex">
+                                                <h2> Cleopatra </h2>
+                                                <span class="close" id="cerrarCleo">&times;</span>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="https://i.imgur.com/J8ZRdHg.jpg" alt="" class="imageFindyourpets">
+                                                <p> This beautiful gray cat is not social, but if you win her heart, She could become very sweet and loyal to you.
+
+                                                        <br>
+                                                        <br>
+                                                        Age: 3 years
+                                                        <br>
+                                                        Gender: Female
+                                                        <br>
+                                                        <br>
+        
+                                                 If you're interested in continue with adoption process, please press continue button to enter some information.
+                                                </p>
+                                                <br>
+        
+                                                 <a href="#" id="botonCleocontinuar"><h3>Continue</h3></a>
+                                                
+                                            </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                    
              </div>
-             <div> 
-                    <h2>Name of pet</h2>
-                    <a href="#"><img src="https://i.imgur.com/rqrRMej.jpg" alt="" class="imageFindyourpets"></a>
-                    <p>Description</p>
-             </div>
+             
         </div>    
 
     </div>
     <br><br>
     
 </article><br><br>
-<aside>
+<aside class="movingContent3">
         <div id="disqus_thread" class="wrapper column wrap"></div>
         <script>
         
@@ -124,7 +308,7 @@
 
 
 
-<script src="main.js"></script>
+
 </body>
 
 </html>
