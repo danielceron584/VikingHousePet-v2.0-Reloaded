@@ -3,6 +3,7 @@
 .modal{
     display: none;
     position: fixed;
+    overflow: auto;
     z-index:1;
     left: 0;
     top: 0;
@@ -44,4 +45,15 @@
 
 .modal-body{
     padding: 20px 16px;
+    font-size: 63%;
+    
+}
+@media (max-width:800px){
+    .contenidoModal{
+        width: 70%;
+    }
+    .subContent{
+        color: transparent
+    }
+    
 }
